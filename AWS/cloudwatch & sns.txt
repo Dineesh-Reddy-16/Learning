@@ -1,0 +1,57 @@
+1. What is cloudwatch?
+Ans:-Amazon CloudWatch is a powerful tool for monitoring, logging, and managing your AWS infrastructure, helping you ensure the reliability and performance of your applications and services.
+2.What and all the components in Cloudwatch?
+Ans:-Cloudwatch components are Dashboards,Alarams, Logs,Metrics,Events & Network monotring.
+3.What is cloudwatch logs?
+Ans:-CloudWatch Logs helps in troubleshooting, performance monitoring, and operational insights, making it a crucial tool for maintaining the health and performance of your AWS environment. 
+     Logs components are like log groups, log Anomalies,Logs insights.
+     to collect the logs in cloudwatch log agent will help you.
+4.What is alarms in cloudwatch?
+Ans:-Alaram will help to get the health check of aws resource ,once we create alarm based on the rules provide while creating alarm the alarm is going to trigger.
+5.What is Dashboards in Cloudwatch?
+Ans:-Cloudwatch dashboards is like,if we want to monitor the group of service then we can create the Dashboard in cloudwatch, there we can watch the the health check of services.
+6.What is cloudwatch metrics?
+Ans:-Metrics are essential for maintaining visibility into the performance and health of your AWS environment, enabling you to take informed actions to ensure reliability, performance, and cost-effectiveness.
+7. What is cloudwatch insight?
+Ans:-CloudWatch Logs Insights simplifies log data analysis, enabling you to gain actionable insights quickly and efficiently, enhancing your ability to monitor, troubleshoot, and secure.
+8. How does Amazon CloudWatch work?
+Ans:-Your applications and infrastructure resources may be monitored and managed using Amazon CloudWatch, which offers a unified solution. 
+It is a web service you can use to gather metrics, understand your application and the infrastructure supporting it, and automatically respond to changes. You can monitor AWS resources with Amazon CloudWatch and adjust the monitoring to your company's requirements.
+9.How long do Cloudwatch Logs store our metadata?
+Ans:-We can keep a record of your information for as long as we think is necessary, which gives us the freedom to change the LogGroup retention settings whenever we see fit.
+ It also allows us to keep a record of our metadata indefinitely.
+10. How do you integrate CloudWatch with EC2 instances?
+Ans:-Installing the CloudWatch agent on AWS EC2 Instances Types allows you to integrate CloudWatch with those instances. 
+You can collect metrics and log files from your EC2 instances using the CloudWatch agent an
+14.d then submit them to CloudWatch.
+11.Is it possible for CloudWatch to automatically delete old logs?
+Ans:-No, CloudWatch does not automatically clean up old logs in the background. 
+When you no longer require the old logs, you must manually delete them from the system.
+12.How do you delete all log files from a specific group?
+Ans:-Using the AWS CloudWatch control panel, you can remove all logs for a particular group at once. Select the log group you want to remove from the CloudWatch console, then choose "Actions" from the context menu.
+13.How Do I Retrieve My Log Data on Amazon CloudWatch?
+Ans:-You can find the Logs section of the Amazon CloudWatch dashboard. All your logs set up to be tracked and retrieved will be displayed here.
+14. How long does log data stored in cloudwatch?
+Ans:-In Amazon CloudWatch Logs, the retention period for your log data depends on the settings you configure for each log group. Here’s how it works.
+     Default retention:log data is retained indefinitely unless you specify a retention period. This means that if you don't set a retention policy, your logs will stay in CloudWatch Logs indefinitely.
+     setting retention polices:Go to the CloudWatch console and select “Logs” from the navigation pane.
+                               Click on the log group for which you want to set the retention policy.
+                               Click on the “Actions” dropdown and select “Edit retention.” Choose the desired retention period from the options provided and save your changes.
+15.What Actions Can We Take From a Cloudwatch Alarm?
+The following actions are possible in response to a cloud watch alarm:
+
+Share an email with the team.
+Schedule a Cron task to run.
+Share on Slack or HipChat.
+16.What is SNS?
+Ans:-SNS is a simple notification service, itys develop based on publish and subscription method, and if any alarms created on cloudwatch we will get intemation using sns.
+17. What and all the featurs of sns?
+Ans:-there are four featurs on sns 
+     Topic
+     Subscribe
+     push notfication
+     sms to mobile
+
+
+
+

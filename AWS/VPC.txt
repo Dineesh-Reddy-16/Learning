@@ -1,0 +1,3 @@
+1.What is Vpc ?
+Ans:-VPC is a virtual private cloud, its is private network where we can create aws resources like ec2,efs,elb,eks,ecs,rds....etc
+     we have a total control upon resource,we created in your VPC.
